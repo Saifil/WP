@@ -42,7 +42,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+      .customHeight{
+        min-height: 250px;
+      }
+    </style>
 </head>
 
 <body>
@@ -258,7 +262,7 @@
 
        <div class="row">
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card customHeight">
     <img class="card-img-top" src="<?=$row["img"]?>" alt="Card image cap">
       <div class="card-block">
         <h3 class="card-title"><?=$row['event']?></h3>
